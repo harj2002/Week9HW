@@ -9,7 +9,7 @@
   <div id="vis"/>
   <script>
     const spec = {
-  {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  {{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Suicides in 2016 (Per 100,000 Population)",
     "width": 800,
     "height": 480,
@@ -23,6 +23,8 @@
     "encoding": {"tooltip":
         {"field": "properties.NAME", "type": "nominal", "title": "Country"}
     }    
+
+      }  
 
       };
     vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
