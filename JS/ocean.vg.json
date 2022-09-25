@@ -1,5 +1,13 @@
-"data": {
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Suicides in 2016 (Per 100,000 Population)",
+    "width": 800,
+    "height": 480,
+    "projection": {"type": "equalEarth"},      
+       "data": {
       "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
      "format": {"type": "topojson", "feature": "oceans"}
    },
     "mark": {"type": "geoshape", "fill": "skyblue"}
+
+      }
+
