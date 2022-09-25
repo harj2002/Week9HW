@@ -17,7 +17,7 @@
                 },
                 "key": "Country", "fields": ["2016"]
             }
-        },
+        }
     ],
     "mark": {"type": "geoshape"},
     "encoding": {
